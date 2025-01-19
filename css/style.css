@@ -344,6 +344,7 @@
   text-align: left;
   display: flex;
   flex-direction: column;
+  width: calc((100% - 48px) / 3);
 }
 
 .portfolio-image {
@@ -388,8 +389,8 @@
   font-size: 18px;
   letter-spacing: 0.03em;
   line-height: 1.17;
-  display: inline-block;
   margin-bottom: 16px;
+  display: inline-block;
 }
 
 .footer-logo-highlight {
