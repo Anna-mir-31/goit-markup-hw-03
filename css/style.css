@@ -345,7 +345,7 @@ img {
   text-align: left;
   display: flex;
   flex-direction: column;
-   flex: 1;
+  flex: 1;
   width: calc((100% - 48px) / 3);
   max-width: 360px;
 }
@@ -396,6 +396,8 @@ img {
 }
 .footer a {
   display: inline-block;
+  text-decoration: none;
+  color: #4d5ae5;
 }
 
 .footer-logo-highlight {
