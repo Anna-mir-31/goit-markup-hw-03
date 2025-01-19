@@ -16,6 +16,7 @@
 .container-header {
   display: flex;
   width: 1158px;
+  max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px 0 15px;
 }
@@ -46,7 +47,7 @@
 .nav-list li {
   margin-left: 40px;
   float: left;
-  padding: 24px 0 
+  padding: 24px 0;
 }
 
 .nav-list {
@@ -66,6 +67,7 @@
   transition: color 0.3s ease;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .nav-list.nav-link:hover {
@@ -80,12 +82,13 @@
   margin: 0;
   font-style: normal;
   gap: 40px;
-  display: flex;
 }
 
 .contact-list {
   list-style: none;
   margin: 0;
+  display: flex;
+  gap: 40px;
 }
 .contact-list li {
   float: left;
@@ -108,6 +111,8 @@
 .contact-link:focus {
   color: #404bbf;
 }
+.container-banner {
+}
 .banner {
   display: flex;
   flex-direction: column;
@@ -116,9 +121,10 @@
   height: 600px;
   background-color: #2e2f42;
   text-align: center;
-  padding: 40px 20px;
+  padding: 188px 0;
   box-sizing: border-box;
 }
+
 .banner-title {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -153,6 +159,8 @@
   background-color: #404bbf;
   color: #ffffff;
   outline: none;
+}
+.container-services {
 }
 .services {
   padding: 120px 156px;
@@ -199,6 +207,8 @@
   color: #434455;
   margin: 0;
 }
+.container-team {
+}
 .team {
   padding: 120px 156px;
   background-color: #f4f4fd;
@@ -227,15 +237,10 @@
 
 .team-item {
   background: #ffffff;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-  border-radius: 0 0 4px 4px;
   padding: 0px 0px 32px 0px;
   overflow: hidden;
   text-align: center;
-  width: 264px;
-  height: 380px;
-  width: calc(25% - 24px);
+  display: block;
 }
 
 .team-photo {
@@ -261,6 +266,8 @@
   letter-spacing: 0.02em;
   color: #434455;
   margin: 0 0 16px;
+}
+.container-portfolio {
 }
 .portfolio {
   padding: 120px 156px;
@@ -331,9 +338,11 @@
   margin: 0px 16px;
   letter-spacing: 0.02em;
 }
+.container-footer {
+}
 .footer {
   background-color: #2e2f42;
-  padding: 100px 156px;
+  padding: 100px 0
   text-align: left;
   color: #ffffff;
 }
