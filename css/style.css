@@ -7,11 +7,17 @@
 }
 
 .header {
-  display: flex;
   justify-content: space-between;
   height: 72px;
   padding: 24px 156px;
   border-bottom: 1px solid #e7e9fc;
+}
+
+.container-header {
+  display: flex;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
 }
 
 .logo {
@@ -40,14 +46,15 @@
 .nav-list li {
   margin-left: 40px;
   float: left;
+  padding: 24px 0 
 }
 
 .nav-list {
   list-style: none;
   margin: 0;
   font-style: normal;
-  margin-left: 76px;
-  margin-top: -20px;
+  display: flex;
+  gap: 40px;
 }
 
 .nav-link {
@@ -72,7 +79,8 @@
 .contact-info {
   margin: 0;
   font-style: normal;
-  gap: 40px
+  gap: 40px;
+  display: flex;
 }
 
 .contact-list {
