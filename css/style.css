@@ -8,8 +8,9 @@
 
 .header {
   justify-content: space-between;
+  height: 72px;
+  padding: 24px 156px;
   border-bottom: 1px solid #e7e9fc;
-  display: flex;
 }
 
 .container {
@@ -18,6 +19,7 @@
   margin: 0 auto;
   padding: 0 15px;
   box-sizing: border-box;
+  display: flex;
 }
 
 .logo {
