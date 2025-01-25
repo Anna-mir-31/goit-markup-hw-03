@@ -6,15 +6,32 @@
   background-color: #ffffff;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul,
+ol {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+
 .header {
   justify-content: space-between;
-  height: 72px;
   padding: 24px 156px;
   border-bottom: 1px solid #e7e9fc;
 }
 
 .container {
-  width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -31,7 +48,6 @@
   color: #4d5ae5;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  text-decoration: none;
   margin-right: 76px;
 }
 
