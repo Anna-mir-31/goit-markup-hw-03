@@ -26,8 +26,6 @@ a {
 }
 
 .header {
-  justify-content: space-between;
-  padding: 24px 156px;
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -57,24 +55,14 @@ a {
 }
 
 .nav {
-  font-style: normal;
-  float: right;
-  margin: 0;
   display: flex;
   align-items: center;
 }
-.nav-list li {
-  margin-left: 40px;
-  float: left;
-  padding: 24px 0;
-}
 
 .nav-list {
-  list-style: none;
-  margin: 0;
-  font-style: normal;
-  display: flex;
+  align-items: center;
   gap: 40px;
+  display: flex;
 }
 img {
   display: block;
@@ -83,12 +71,10 @@ img {
 }
 
 .nav-link {
-  font-family: "Roboto", sans-serif;
+  display: block;
   font-size: 16px;
   font-weight: 500;
-  text-decoration: none;
   color: #2e2f42;
-  transition: color 0.3s ease;
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 24px 0;
@@ -103,61 +89,54 @@ img {
 }
 
 .contact-info {
-  margin: 0;
   font-style: normal;
-  gap: 40px;
+  margin-left: auto;
 }
 
 .contact-list {
-  list-style: none;
-  margin: 0;
+  align-items: center;
   display: flex;
   gap: 40px;
 }
-.contact-list li {
-  float: left;
-  margin-right: 40px;
-}
 
 .contact-link {
-  font-family: "Roboto", sans-serif;
+  display: block;
   color: #434455;
-  font-weight: 400;
   font-size: 16px;
-  text-decoration: none;
-  line-height: 150%;
+  padding: 24px 0;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-.contact-link:hover {
-  color: #404bbf;
-}
-.contact-link:focus {
+.nav-link:hover,
+.nav-link:focus,
+.contacts-link:hover,
+.contacts-link:focus {
   color: #404bbf;
 }
 
 .banner {
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 600px;
   background-color: #2e2f42;
   text-align: center;
   padding: 188px 0;
   box-sizing: border-box;
+  max-height: 600px;
 }
 
 .banner-title {
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
   line-height: 107%;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  margin: 0;
+  margin-top: 188px;
+  padding-bottom: 48px;
   max-width: 496px;
+  margin: 0 auto;
 }
 .banner-btn {
   font-family: "Roboto", sans-serif;
@@ -177,6 +156,7 @@ img {
   display: block;
   min-width: 169px;
   height: 56px;
+  margin: 0 auto;
 }
 .banner-btn:hover {
   background-color: #404bbf;
@@ -277,7 +257,9 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 .container-team-item {
-  padding: 32px 0;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 32px;
 }
 
 .team-photo {
@@ -286,25 +268,20 @@ img {
 }
 
 .team-name {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin: 16px 0 8px;
   text-align: center;
-  margin-bottom: 8px;
 }
 
 .team-role {
-  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  margin: 0 0 16px;
   text-align: center;
 }
 
@@ -342,9 +319,10 @@ img {
   margin-right: auto;
 }
 .container-portfolio-item {
-  padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
+  padding-bottom: 32px;
+  padding-left: 16;
 }
 
 .portfolio-item {
