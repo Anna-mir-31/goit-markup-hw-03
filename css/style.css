@@ -80,14 +80,6 @@ img {
   padding: 24px 0;
 }
 
-.nav-list.nav-link:hover {
-  color: #404bbf;
-}
-
-.nav-list.nav-link:focus {
-  color: #404bbf;
-}
-
 .contact-info {
   font-style: normal;
   margin-left: auto;
@@ -110,8 +102,8 @@ img {
 
 .nav-link:hover,
 .nav-link:focus,
-.contacts-link:hover,
-.contacts-link:focus {
+.contact-link:hover,
+.contact-link:focus {
   color: #404bbf;
 }
 
